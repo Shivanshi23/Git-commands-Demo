@@ -1,0 +1,11 @@
+# mylogs.log     
+#if we want to ignore this file
+
+# .cpp    
+#if we want to ignore all files with extension .cpp
+
+
+/mylogs
+
+#*.log 
+#it will ignore all .log files
