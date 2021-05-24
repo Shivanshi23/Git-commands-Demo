@@ -1,8 +1,8 @@
 # Git commands Documentation for your reference
 ***
-* Git works on concept of Source Code Management (SCM) \
-* It is called Distributed Version Control System \
-* Trunk Based Development : supports branching \
+* Git works on concept of Source Code Management (SCM) 
+* It is called Distributed Version Control System 
+* Trunk Based Development : supports branching 
 ***
 
 ### --To setup configurations:
@@ -16,6 +16,7 @@ Shivanshi23
 $ git config --global user.email <br/>
 shivanshigarg2303@gmail.com
 <br/>
+
 ### --To clear the screen
 $ clear
 <br/>
@@ -91,7 +92,6 @@ $ touch contact.html
 <br/>
 
 ### Step 3 : Edit news.html (UNMODIFIED -> MODIFIED)
-<br/>
 
 ### STEP 4 : MODIFIED -> STAGED
 //if we modify a file, we need to again add it to STAGING area
@@ -109,15 +109,15 @@ Changes to be committed:<br/>
 //git is making track of all files
 <br/>
 
-### file shown in red color in $ git status, is UNSTAGED
-### file shown in green color in $ git status, is STAGED
-<br/>
+#### file shown in red color in $ git status, is UNSTAGED
+#### file shown in green color in $ git status, is STAGED
+
 //Edit all files (MODIFIED)<br/>
 //Now, either STAGE the files or direct COMMIT
 <br/>
 
 ### --Skipping the STAGED area (direct COMMIT all files without going to STAGING area)
-MODIFIED -> UNMODIFIED (COMMIT) <br/>
+//MODIFIED -> UNMODIFIED (COMMIT) <br/>
 $ git commit -a -m "Skipping the STAGED area"
 <br/>
 
@@ -177,7 +177,6 @@ $ git commit -m "Adding git ignore  file"<br/>
 <br/>
 
 ## Branching
-<br/>
 
 ### --To check the list of branches available in project
 $ git branch<br/>
@@ -219,7 +218,6 @@ $ git checkout master
 <br/>
 $ git merge updatecode
 <br/>
-<br/>
 
 ## Let's create node files for back-end
 
@@ -241,7 +239,7 @@ $ git commit -m "server side js file"
 //for this create empty repo on github "Git commands Demo"<br/>
 <br/>
 
-### --To push master branch to github account(remote got repo)
+### --To push master branch to github account(remote git repo)
 $ git remote add origin https://github.com/Shivanshi23/Git-commands-Demo.git
 <br/>
 $ git push origin master
@@ -254,7 +252,6 @@ $ git checkout -b new_branch<br/>
 2. Edit, add and commit your files.<br/>
 3. Push your branch to the remote repository<br/>
 $ git push origin new_branch
-<br/>
 
 ### --Adding local branch to remote server
 $ git push origin nodeintegration
@@ -264,7 +261,7 @@ $ git push origin nodeintegration
 //goto the directory in which u want to clone the project<br/>
 $ git clone https://github.com/Shivanshi23/Git-commands-Demo.git folder_name <br/>
 // repository URL : url of git project<br/>
-// folder_name : the folder in which you want to copy the project<br/>
+// folder_name : the folder in which you want to copy the project
 <br/>
 
 ### --To pull a repository
